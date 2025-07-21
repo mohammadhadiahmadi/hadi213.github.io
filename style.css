@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سایت من</title>
+  <link rel="stylesheet" href="style.css"> <!-- اینجا اصلاح شده -->
+</head>
+<body>
+  <img src="logo.png" class="logo" alt="لوگو">
+  <h1 class="glow">به سایت ما خوش آمدید!</h1>
+
+  <p class="intro">ما تیمی حرفه‌ای هستیم که پروژه‌های خلاقانه می‌سازیم.</p>
+
+  <div class="id-section">
+    <button onclick="alert('عضویت با موفقیت انجام شد!')">عضو شو</button>
+  </div>
+
+  <ul class="members">
+    <li>عضو ۱</li>
+    <li>عضو ۲</li>
+    <li>عضو ۳</li>
+  </ul>
+
+  <div class="social">
+    <a href="#">اینستاگرام</a>
+    <a href="#">تلگرام</a>
+    <a href="#">لینکدین</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
